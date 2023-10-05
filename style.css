@@ -1,9 +1,11 @@
 h1{
     font-family: 'Dancing Script', cursive;
 font-family: 'Yeseva One', cursive;
-justify-content: center
 }
 
 p {
-    background-color: ;
+    background-color: #dfd7d7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 16px; 
+    
 }
