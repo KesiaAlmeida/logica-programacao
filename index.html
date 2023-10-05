@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lógica de programação</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Yeseva+One&display=swap" rel="stylesheet">
+
     
 </head>
 <body>
     <h1>Lógica de programação</h1>
     <p>Descrição da página</p>
+
+    <form action="">
+        <div class="controle-form">
+            <label for="nota1">Nota 1;</label>
+            <input type="text" id="nota1" required>
+        </div>
+
+        
+        <div class="controle-form">
+            <label for="nota2">Nota 2;</label>
+            <input type="text" id="nota2" required>
+        </div>
+
+        <div class="controle-form">
+            <label for="nota3">Nota 3;</label>
+            <input type="text" id="nota3" required>
+        </div>
+    
+
+        <button type="button" onclick="mediaAluno()">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+
+     
+                
+      
+        
+
+
     <script src="./script.js"></script>
 </body>
 </html>
