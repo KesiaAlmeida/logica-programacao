@@ -1,0 +1,117 @@
+.base{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>div>div{
+    border: 1px solid beige;
+}
+
+/*urna,teclado e tela*/
+body>div>div>div{
+    border: 1px solid gray;
+    margin: 20px;
+    background-color: gray;
+}
+
+.urna{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: beige;
+}
+
+.tela{
+    width: 60%;
+
+}
+
+.teclado{
+    width: 35%;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo>img{
+    margin: 10px;
+   
+}
+
+.titulo>h1{
+    margin: 10px;
+   
+}
+
+.teclado-numerico{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.teclado-numerico>div{
+    background-color: black;
+    
+}
+
+.teclado-numerico>div>span{
+    color: white;
+    font-size: 20px;
+}
+
+.botao-numerico{
+    
+    width: 85px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 85px;
+}
+
+.teclado-de-acoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.teclado-de-acoes>div{
+   
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botao-branco{
+    background-color: white;
+    color: black;
+}
+
+.botao-corrige{
+    background-color: orangered;
+    color: black;
+
+}
+
+.botao-confirma{
+    background-color: green;
+    color: black;
+
+}
+
