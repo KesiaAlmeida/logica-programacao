@@ -17,9 +17,9 @@ export default class Teclado {
         this.visorConfirmacaoCandidato = document.querySelector(' .visor-confirmacao-candidato')
 
             this.candidatos [
-                new Candidato('Darth Vader' , 'SITH' , 99, '../../img/darthVader.png'),
-                new Candidato('Obi Wan Kenobi' , 'JEDI' , 99, '../../img/obiwan.png'),
-                new Candidato('Leia Organa' , 'RESISTENCIA' , 99, '../../img/leiaOrgana-removebg-prev.png'),
+                new Candidato('Darth Vader' , 'SITH' , 8, '../../"./candidato-darth-vader.jpg"'),
+                new Candidato('spock' , '' , 14, '../.),
+                new Candidato('princesa Kitana' , '' , 21, '../
             ]
 
     }
