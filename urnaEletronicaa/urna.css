@@ -3,17 +3,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.head {
+    width: 100px; ;
+    height: 120px;
+    background-image: url"./imagens/candidato-darth-vader.jpg";
+    background-size: cover;
+    
+
 }
 
 body>div>div{
-    border: 1px solid beige;
+    border: 1px solid rgb(216, 216, 207);
 }
 
 /*urna,teclado e tela*/
 body>div>div>div{
-    border: 1px solid gray;
+    border: 1px solid rgb(235, 230, 230);
     margin: 20px;
-    background-color: gray;
+    background-color: rgb(224, 214, 214);
 }
 
 .urna{
@@ -23,54 +33,60 @@ body>div>div>div{
     align-items: center;
     width: 80%;
     background-color: beige;
+    
 }
 
 .tela{
-    width: 60%;
+    width: 1000%;
 
 }
 
 .teclado{
     width: 35%;
 }
-
+/*titulo da urna*/
 .titulo{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 
 .titulo>img{
     margin: 10px;
+    border: 1px;
    
 }
 
 .titulo>h1{
     margin: 10px;
+    border: 1px solid rgb(211, 195, 195);
    
 }
 
-.teclado-numerico{
+.teclado-numerico {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 .teclado-numerico>div{
-    background-color: black;
+    background-color: rgb(247, 240, 240);
+    
     
 }
 
 .teclado-numerico>div>span{
-    color: white;
+    color: rgb(17, 16, 16);
     font-size: 20px;
 }
 
 .botao-numerico{
-    
+    border: 1px solid rgb(238, 230, 230);
     width: 85px;
     margin: 5px;
     display: flex;
@@ -113,5 +129,21 @@ body>div>div>div{
     background-color: green;
     color: black;
 
+}
+
+.nome-candidato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.visor-confirmacao>div>h1{
+    text-align: center;
+}
+
+.titulo-do-visor{
+    display: flex;
+    flex-direction: row;
 }
 
